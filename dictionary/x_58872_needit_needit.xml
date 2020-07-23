@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="test2" mandatory="true" max_length="2" name="test2" type="string"/>
+        <element choice="1" default="xsxa" label="test3" max_length="7" name="test3" type="string">
+            <choice/>
+        </element>
+        <element label="Test Field" max_length="12" name="test_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
+    </element>
+</database>
